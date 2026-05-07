@@ -126,7 +126,7 @@ h1, h2, h3, h4 {
   position: relative;
   min-height: 600px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
   align-items: stretch;
   overflow: hidden;
 }
@@ -134,7 +134,7 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 64px 80px 24px;
+  padding: 80px 48px 80px 24px;
   background: #FEFBF4;
   position: relative;
 }
@@ -152,25 +152,25 @@ h1, h2, h3, h4 {
   background: linear-gradient(90deg, rgba(254, 251, 244, 0.6) 0%, rgba(254, 251, 244, 0) 30%);
 }
 .hero h1 {
-  font-size: clamp(40px, 5.5vw, 68px);
+  font-size: clamp(32px, 3.6vw, 52px);
   font-weight: 500;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   font-style: italic;
   color: #084F56;
 }
 .hero p {
-  font-size: clamp(16px, 1.3vw, 18px);
+  font-size: clamp(15px, 1.2vw, 17px);
   color: #1A1A1A;
   opacity: 0.85;
-  max-width: 48ch;
-  line-height: 1.65;
+  max-width: 32ch;
+  line-height: 1.6;
 }
 .hero-divider {
   width: 60px;
   height: 1px;
   background: #084F56;
   opacity: 0.4;
-  margin-top: 48px;
+  margin-top: 40px;
 }
 
 /* === EVENTS - EDITORIAL TIMELINE === */
